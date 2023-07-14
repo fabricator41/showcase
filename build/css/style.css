@@ -590,6 +590,22 @@ video {
   background-image: url('img/showcase.jpg');
 }
 
+.bg-\[url\(\'\/img\/showcase\.jpg\'\)\] {
+  background-image: url('/img/showcase.jpg');
+}
+
+.bg-\[url\(\'\.\/img\/showcase\.jpg\'\)\] {
+  background-image: url('./img/showcase.jpg');
+}
+
+.bg-\[url\(\'\.\.\/img\/showcase\.jpg\'\)\] {
+  background-image: url('../img/showcase.jpg');
+}
+
+.bg-\[url\(\'\/build\/img\/showcase\.jpg\'\)\] {
+  background-image: url('/build/img/showcase.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
